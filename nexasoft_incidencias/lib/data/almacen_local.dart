@@ -1,3 +1,4 @@
+//Lee y escribe en el almacenamiento local
 import 'dart:convert';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';

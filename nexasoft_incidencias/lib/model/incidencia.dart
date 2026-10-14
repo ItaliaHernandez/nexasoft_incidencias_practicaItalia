@@ -1,3 +1,4 @@
+//Definicion de datos que contiene una incidencia
 class Incidencia {
   String id;
   String titulo;
