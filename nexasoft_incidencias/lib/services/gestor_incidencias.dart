@@ -35,6 +35,7 @@ class GestorIncidencias {
       if (incidencias[i].id == id) {
         incidencias[i].estado = estado;
         await datos.guardar(incidencias);
+        iniciar();
         break;
       }
     }
